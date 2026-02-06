@@ -1,0 +1,32 @@
+.hero-slider {
+  width: 100%;
+  height: 520px;        /* ✅ px MUST */
+  position: relative;
+  overflow: hidden;
+}
+
+/* IMAGE WRAPPER */
+.slide-image {
+  width: 100%;
+  height: 100%;         /* ✅ full height */
+}
+
+/* IMAGE CUT-TO-CUT */
+.slide-image img {
+  width: 100%;
+  height: 100%;         /* ✅ full height */
+  object-fit: fill;     /* cut-to-cut */
+  display: block;
+}
+
+/* TEXT */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translateY(-50%);
+  color: #fff;
+  background: rgba(0,0,0,0.45);
+  padding: 20px 30px;
+  border-radius: 12px;
+}

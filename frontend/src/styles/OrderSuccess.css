@@ -1,0 +1,82 @@
+.success-page {
+  min-height: 100vh;
+  background: #f6f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.success-card {
+  background: #fff;
+  width: 420px;
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  animation: pop 0.4s ease;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+
+.success-card h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.success-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.success-info {
+  background: #f9f9f9;
+  margin: 20px 0;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.success-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.success-actions button {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: #ff3f6c;
+  color: #fff;
+}
+
+.success-actions button.secondary {
+  background: #eee;
+  color: #333;
+}

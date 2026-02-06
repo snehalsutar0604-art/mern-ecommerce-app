@@ -1,0 +1,101 @@
+.admin-users-page {
+  padding: 30px;
+  background: #f7f9fc;
+  min-height: 100vh;
+}
+
+.admin-users-page h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* NO DATA */
+.no-data {
+  color: #777;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* TABLE */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+.users-table thead {
+  background: #ff3f6c;
+  color: white;
+}
+
+.users-table th,
+.users-table td {
+  padding: 14px;
+  text-align: left;
+}
+
+/* ROWS */
+.users-table tbody tr {
+  border-bottom: 1px solid #eee;
+  transition: 0.15s;
+}
+
+.users-table tbody tr:hover {
+  background: #f9f9ff;
+}
+
+/* USER CELL */
+.user-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+/* AVATAR */
+.user-cell img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff3f6c;
+}
+.user-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff3f6c;
+}
+
+/* BADGE */
+.badge {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 700px) {
+  .users-table {
+    font-size: 13px;
+  }
+
+  .user-cell span {
+    display: none;
+  }
+}

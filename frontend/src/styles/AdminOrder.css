@@ -1,0 +1,90 @@
+.admin-page {
+  padding: 25px;
+  background: #f9fafc;
+  min-height: 100vh;
+}
+
+.admin-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+}
+
+.admin-table th {
+  background: #111827;
+  color: white;
+  padding: 14px;
+  text-align: left;
+}
+
+.admin-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.admin-table tr:hover {
+  background: #f3f4f6;
+}
+
+/* USER */
+.user-cell b {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* STATUS BADGE */
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.PLACED {
+  background: #e0f2fe;
+  color: #0284c7;
+}
+
+.status.DELIVERED {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.status.CANCELLED {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+/* PAYMENT TAG */
+.payment-tag {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.payment-tag.COD {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.payment-tag.ONLINE {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+/* ADDRESS */
+.address-cell {
+  max-width: 260px;
+  font-size: 13px;
+  color: #374151;
+  line-height: 1.4;
+}
